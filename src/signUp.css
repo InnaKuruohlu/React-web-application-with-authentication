@@ -1,0 +1,259 @@
+
+.signUp-section{
+  width: 100%;
+  margin-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerImgSingUp{
+  display: flex;
+  justify-content: center;
+  min-width: 800px;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+
+.imageSignUp{
+  height: 80px;
+  width: 240px;
+}
+
+.containerSignUp{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 800px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.firstContainerSignUp{
+  background-color: white;
+  padding: 30px;
+  border-top: solid 1px black;
+  border-left: solid 1px black;
+  border-bottom: solid 1px black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: left;
+  width: 55%;
+}
+
+.firstContainerSignUp *{
+  margin: 0;
+  padding: 0;
+}
+
+.titleSignUp{
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.formSignUp{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.email-container-signUp{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.label-email-signUp{
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  word-spacing: -2px;
+}
+
+.contact-input-signUp{
+  padding: 13px;
+  border: solid 1px rgb(220, 220, 220);
+  border-radius: 3px;
+}
+
+.containerFullName{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.containerFirstName{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.labelFirstName{
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  word-spacing: -2px;
+}
+
+.inputFirstName{
+  padding: 13px;
+  border: solid 1px rgb(220, 220, 220);
+  border-radius: 3px;
+}
+
+.containerLastName{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.labelLastName{
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  word-spacing: -2px;
+}
+
+.inputLastName{
+  padding: 13px;
+  border: solid 1px rgb(220, 220, 220);
+  border-radius: 3px;
+}
+
+.password-container-SignUp{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.label-passwordSignUp{
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  word-spacing: -2px;
+}
+
+.password-inputSignUp{
+  padding: 13px;
+  border: solid 1px rgb(220, 220, 220);
+  border-radius: 3px;
+}
+
+.forgot-pswText-SignUp{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:  rgb(54, 180, 0);
+  font-size: 13px;
+}
+
+.SignUpBtn{
+  width: 100%;
+  padding: 13px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: rgb(54, 180, 0);
+  border: none;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-button svg{
+  font-size: 18px; 
+}
+
+.yesAccountText{
+  margin-top: 40px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionSignIn{
+  color: rgb(54, 180, 0);
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+
+}
+
+.secondContainerSignUp{
+   background-color: black;
+  color: white;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 30px;
+}
+
+.secondContainerSignUp *{
+  margin: 0;
+  padding: 0;
+}
+
+.seconContainerTitle{
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.container-info-SignUp{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signUpinfoContain{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.iconSignUp{
+  width: 40px;
+  color: rgb(69, 231, 0);
+}
+
+.separateInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.titleInfo{
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.textInfo{
+  
+  color: rgb(86, 86, 86);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.callNumber{
+  font-size: 14px;
+  color: white;
+  margin-top: 25px;
+}
+
+.number{
+ color: rgb(69, 231, 0);
+ font-weight: 600;
+ font-size: 12px;
+}

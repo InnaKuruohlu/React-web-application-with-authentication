@@ -1,0 +1,194 @@
+
+.signIn-section{
+  width: 100%;
+  margin-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.containerImgSingIn{
+   display: flex;
+  justify-content: center;
+  min-width: 800px;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+
+}
+
+.imageSignIn{
+height: 80px;
+width: 240px;
+}
+
+.containerSignIn{
+min-width: 800px;
+max-width: 800px;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+width: 100%;
+margin: auto;
+}
+
+.firstContainerSignIn{
+  background-color: white;
+  padding: 30px;
+  border-top: solid 1px black;
+  border-left: solid 1px black;
+  border-bottom: solid 1px black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: left;
+  width: 55%;
+}
+.firstContainerSignIn *{
+   margin: 0;
+  padding: 0;
+}
+
+.titleSignIn{
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.formSignIn{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.email-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+
+}
+
+.label-email{
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  word-spacing: -2px;
+}
+
+.contact-input{
+  padding: 13px;
+  border: solid 1px rgb(220, 220, 220);
+  border-radius: 3px;
+}
+
+.password-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.label-password{
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  word-spacing: -2px;
+}
+
+.password-input{
+  padding: 13px;
+  border: solid 1px rgb(220, 220, 220);
+  border-radius: 3px;
+
+}
+
+.forgot-psw-text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:  rgb(54, 180, 0);
+  font-size: 13px;
+}
+
+.SignInBtn{
+  width: 100%;
+  text-align: left;
+  padding: 13px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: rgb(54, 180, 0);
+  border: none;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.noAccountText{
+  margin-top: 40px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionSignUp{
+  color: rgb(54, 180, 0);
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.secondContainerSignIn{
+  background-color: black;
+  color: white;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.secondContainerSignIn *{
+  margin: 0;
+  padding: 0;
+}
+
+.container-kodixPro{
+  display: flex;
+  justify-content: flex-start;
+  align-content:  flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.Kodix{
+  font-size: 24px;
+}
+
+.PRO{
+  border: solid 2px rgb(69, 231, 0);
+  color: rgb(69, 231, 0);
+  width: 30px;
+  height: 16px;
+  font-size: 12px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.ad{
+  text-align: center;
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 20px;
+
+}
+
+.linkLearnMore{
+  color: rgb(69, 231, 0);
+  font-size: 16px;
+}
