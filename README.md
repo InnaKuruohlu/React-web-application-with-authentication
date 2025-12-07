@@ -20,6 +20,7 @@ Installation & Running Locally
 - Clone the repository:
 
 (git clone https://github.com/InnaKuruohlu/Kodix_FrontEnd_Task.git
+
 cd Kodix_FrontEnd_Task/my-react-app)
 
 - Install dependencies: npm install
