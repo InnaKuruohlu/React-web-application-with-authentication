@@ -1,9 +1,3 @@
-To see the Live Demo: 
-
-https://innakuruohlu.github.io/Kodix_FrontEnd_Task/
-
-***
-
 Technologies Used:
 
 - React.js
